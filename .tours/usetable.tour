@@ -1,0 +1,122 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "useTable",
+  "steps": [
+    {
+      "file": "src/publicUtils.js",
+      "description": "useGetLatest 约等于 usePropsRef, 除了是用 callback 而不是 a.current 的方式获取值",
+      "line": 144
+    },
+    {
+      "file": "src/hooks/useTable.js",
+      "description": "## getInstance\n\ngetInstance 可以当作就是获取一个固定的 instance 对象\n\ninstance 提供了类似 context 的职责",
+      "line": 68
+    },
+    {
+      "file": "src/hooks/useTable.js",
+      "description": "## 宽度计算，最大最小宽度通过累加得到",
+      "line": 498,
+      "selection": {
+        "start": {
+          "line": 456,
+          "character": 1
+        },
+        "end": {
+          "line": 497,
+          "character": 2
+        }
+      }
+    },
+    {
+      "file": "src/publicUtils.js",
+      "description": "默认的 Cell render 方式",
+      "line": 13
+    },
+    {
+      "file": "examples/animated-framer-motion/src/App.js",
+      "description": "## 单元格渲染 Example \n\n单元格渲染时都需要 cell.render('Cell')\n\n他们设计时本可以不把 'Cell' 作为必要的参数的，感觉这里没有设计好，感觉莫名其妙的",
+      "line": 286,
+      "selection": {
+        "start": {
+          "line": 286,
+          "character": 30
+        },
+        "end": {
+          "line": 286,
+          "character": 41
+        }
+      }
+    },
+    {
+      "file": "src/hooks/useTable.js",
+      "description": "每个 plugin 都通过 hooks 初始化一遍",
+      "line": 79
+    },
+    {
+      "file": "src/makeDefaultPluginHooks.js",
+      "description": "默认 hooks",
+      "line": 78,
+      "selection": {
+        "start": {
+          "line": 47,
+          "character": 1
+        },
+        "end": {
+          "line": 78,
+          "character": 1
+        }
+      }
+    },
+    {
+      "file": "src/hooks/useTable.js",
+      "description": "在 Component 中注册了 reducer，用来作为状态的维护者",
+      "line": 135,
+      "selection": {
+        "start": {
+          "line": 107,
+          "character": 1
+        },
+        "end": {
+          "line": 134,
+          "character": 4
+        }
+      }
+    },
+    {
+      "file": "src/hooks/useTable.js",
+      "description": "### 获得 visibleColumns 的作用是？",
+      "line": 312,
+      "selection": {
+        "start": {
+          "line": 306,
+          "character": 1
+        },
+        "end": {
+          "line": 311,
+          "character": 15
+        }
+      }
+    },
+    {
+      "file": "examples/column-hiding/src/App.js",
+      "description": "# useColumnVisibility 的作用",
+      "line": 69
+    },
+    {
+      "file": "src/hooks/useTable.js",
+      "description": "### 唯一耦合进内部实现的插件 useColumnVisibility\n\n可能是因为 isVisible 的属性对渲染过程影响太大了，不耦合到 useTable 里更麻烦",
+      "line": 62,
+      "selection": {
+        "start": {
+          "line": 62,
+          "character": 14
+        },
+        "end": {
+          "line": 62,
+          "character": 23
+        }
+      }
+    }
+  ],
+  "ref": "read"
+}
